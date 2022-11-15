@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+#header{
+    background: url(Imagepsd/banner1.png) no-repeat center center/cover;
+}
+.header-wrapper{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, #000000 85%, #000000 100%);
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+}
+.row{
+    display: flex;
+}
+.col-50{
+    width: 50%;
+}
+.juty-spc-btw{
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+.navmenu{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+padding: 10px;
+}
+.main-text{
+    padding: 100px 20px 100px 0px;
+}
+h1{
+    font-size: 60px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+padding: 20px 10px 20px 0px;
+}
+p{
+font-size: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Nunito";
+padding: 10px 80px 20px 0px;
+}
+.btn{
+    padding: 10px 0px 10px 0px;
+}
+button{
+    font-size: 20px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+border-radius: 32px;
+background-color: #f64b3c;
+padding: 5px 40px;
+}
