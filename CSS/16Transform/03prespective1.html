@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(245, 69, 98);
+
+        }
+        .container{
+            margin-top: 10%;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: center;
+        
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 10px 20px 10px 20px;
+            transition: 0.4s ease-in;
+
+        }
+        .b1 {
+            transform-origin: left center;
+        }
+
+        .b1:hover {
+            transform: perspective(100px) rotatey(45deg);
+            opacity: 0.8;
+        }
+        .b2 {
+            transform-origin: bottom center;
+        }
+
+        .b2:hover {
+            opacity: 0.8;
+            transform: perspective(500px) rotatex(45deg);
+        }
+
+
+        .b3 {
+            transform-origin: right center;
+        }
+
+        .b3:hover {
+            opacity: 0.8;
+            transform: perspective(300px) rotatey(-45deg);
+        }
+        .text {
+            color: #D0D0D0;
+            text-align: center;
+            
+            font-size: 10px;
+            font-family: sans-serif;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="box b1">
+            <span class="text">left side</span>
+        </div>
+        <div class="box b2">
+            <span class="text">bottom side</span>
+
+        </div>
+        <div class="box b3">
+            <span class="text">right side</span>
+
+        </div>
+    </div>
+</body>
+</html>

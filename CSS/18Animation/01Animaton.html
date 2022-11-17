@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slide {
+            animation-name: koibhi;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+        }
+
+        @keyframes koibhi {
+            from {
+                /* background-color: blue; */
+                margin-left: 150%;
+                width: 300%;
+            }
+
+            to {
+                /* background-color: tomato; */
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+            .box
+		{
+			width: 100px;
+			height: 100px;
+			background: lightcoral;
+			animation-name: xyz;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes xyz
+		{
+			/* from{background: lightcoral;}
+			to{background: blue;} */
+			0%{ background-color: brown; }
+			10%{ background-color: orange; }
+			20%{ background-color: orangered; }
+			30%{ background-color: yellow; }
+			40%{ background-color: rebeccapurple; }
+			50%{ background-color: firebrick; }
+			60%{ background-color: green; }
+			70%{ background-color: white; }
+			100%{ background-color: blueviolet; }
+		}
+        
+    </style>
+</head>
+
+<body>
+    <p class="slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nesciunt sint magnam omnis minima.
+        Cum, aut, neque labore fugit consequatur iure error, culpa expedita necessitatibus magnam sunt mollitia impedit
+        similique?</p>
+    <div class="box"></div>
+</body>
+
+</html>
